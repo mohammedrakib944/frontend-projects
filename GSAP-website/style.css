@@ -31,10 +31,24 @@
   position: sticky;
   top: 0;
   background-color: white;
+  z-index: 10;
+}
+
+.navbar p {
+  flex: 1;
+}
+
+.navbar h1 {
+  text-align: center;
+}
+
+.navbar ul {
+  flex: 1;
 }
 
 .links {
   display: flex;
+  justify-content: end;
   gap: 30px;
 }
 
@@ -71,12 +85,16 @@
 
 .photos-wrapper {
   overflow: hidden;
-  margin-left: 250px;
   margin-top: 50px;
   margin-bottom: 200px;
 }
 
+.photos {
+  margin-left: 250px;
+}
+
 .photos-wrapper h2 {
+  margin-left: 250px;
   font-size: 32px;
 }
 
@@ -116,13 +134,8 @@
 }
 
 .footer {
-  font-size: 4rem;
+  font-size: 9rem;
   font-weight: 700;
   margin-bottom: 100px;
   text-align: center;
-}
-
-.footer p {
-  font-size: 2rem;
-  font-weight: 400;
 }
